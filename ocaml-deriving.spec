@@ -1,6 +1,6 @@
 Name:           ocaml-deriving
 Version:        0.1.1a
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Extension to OCaml for deriving functions from types
 License:        MIT
 Group:          Development/Other
