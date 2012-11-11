@@ -1,0 +1,11 @@
+--- deriving-0.1.1.orig/syntax/Makefile	2007-06-22 00:02:10.000000000 +0100
++++ deriving-0.1.1/syntax/Makefile	2008-12-05 12:52:28.000000000 +0000
+@@ -6,7 +6,7 @@
+ ANNOTATE   = yes
+ PPFLAGS    = -loc loc
+ USE_CAMLP4 = yes
+-LIBS       = camlp4lib unix
++LIBS       = dynlink camlp4lib unix
+ 
+ CAMLP4_PRE_NOPRINTER = 
+ 
