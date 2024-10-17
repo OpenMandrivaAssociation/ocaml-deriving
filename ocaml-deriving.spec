@@ -4,7 +4,7 @@ Release:        %mkrel 2
 Summary:        Extension to OCaml for deriving functions from types
 License:        MIT
 Group:          Development/Other
-URL:            http://code.google.com/p/deriving/
+URL:            https://code.google.com/p/deriving/
 Source0:        http://deriving.googlecode.com/files/deriving-%{version}.tar.gz
 Patch0:         ocaml-deriving-no-link-libs.patch
 Patch1:         ocaml-deriving-0.1.1a-dynlink.patch
